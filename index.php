@@ -8,9 +8,7 @@
 
 <meta name="google-site-verification" content="JdnW_N4j4RVYcIfjU1jvS6hoesmesxR5cBI5FUeFcNg" />
 
-<link href="css/styles.css?rev=1" rel="stylesheet" type="text/css" />
-<!--[if IE 6]><link href="css/ie6.css.php" rel="stylesheet" type="text/css" /><![endif]-->
-<!--[if IE 7]><link href="css/ie7.css" rel="stylesheet" type="text/css" /><![endif]-->
+<link href="css/styles.css" rel="stylesheet" type="text/css" />
 <link rel="shortcut icon" href="favicon.ico" />
 <link rel="icon" href="favicon.ico" />
 <link href='https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz' rel='stylesheet' type='text/css'>
