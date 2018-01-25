@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8">
   <title>Design Portfolio of Annette Calabrese</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Hi. I'm Annette. I'm a freelance web desiger currently living and working in Ann Arbor, Michigan. Come checkout my design playground." />
   <meta name="keywords" content="Annette Calabrese, Web Designer, Drupal Developer, Front-End developer, Freelance Web Designer Ann Arbor Michigan, Graphic Designer, Design Portfolio, non-profit clients" />
   <meta name="google-site-verification" content="JdnW_N4j4RVYcIfjU1jvS6hoesmesxR5cBI5FUeFcNg" />
@@ -11,45 +12,17 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz">
   <link rel="shortcut icon" href="favicon.ico">
   <link rel="icon" href="favicon.ico">
-
-  <script src="js/root.js"></script>
-  <script src="js/mootools.svn.js"></script>
-
-  <script>
-    function showElement(layer){
-      var myLayer = document.getElementById(layer);
-      if(myLayer.style.display=="none"){
-        myLayer.style.display="block";
-        myLayer.backgroundPosition="top";
-      } else {
-        myLayer.style.display="none";
-      }
-    }
-
-    // Mootools
-    // Slide Down for About
-    window.addEvent('domready', function(){
-      //-vertical
-
-      var mySlide = new Fx.Slide('about');
-      mySlide.hide();
-      $('about_toggle').addEvent('click', function(e){
-        e = new Event(e);
-        mySlide.toggle();
-        e.stop();
-      });
-    });
-  </script>
 </head>
 
 <body>
-
 <div id="container">
 
-<h1 class="logo"><a href=".">Annette Calabrese <span>Graphic &amp; Web Designer</span></a></h1>
-<h2 class="message">I'm a freelance designer and drupal developer originally hailing from the suburbs of Detroit, currently residing in Ann Arbor, Michigan. Feel free to check out some of my latest work below, and if you still want more, you can take a peek at my <a href="resume.php">resume</a>.</h2>
+<header>
+  <h1 class="logo"><a href="https://www.annettecalabrese.com">Annette Calabrese <span>Graphic &amp; Web Designer</span></a></h1>
+  <h2 class="message">I'm a freelance designer and drupal developer originally hailing from the suburbs of Detroit, currently residing in Ann Arbor, Michigan. Feel free to check out some of my latest work below, and if you still want more, you can take a peek at my <a href="resume.php">resume</a>.</h2>
+</header>
 
-<div id="main_content">
+<main class="page--portfolio">
 
 <!-- START Portfolio -->
 <div class="work left">
@@ -76,8 +49,6 @@
   <a class="visit" href="http://www.nevalogy.com/" target="_blank">visit the site &gt;</a>
 </div>
 
-
-
 <div class="work left">
   <img src="images/work_anthonyalison.jpg" width="250" height="150" alt="Anthony and Alison" />
   <h3>Alison &amp; Anthony <span>2016</span></h3>
@@ -101,9 +72,6 @@
   <p class="tools">Wordpress Theming, Design, jQuery, Responsive</p>
   <a class="visit" href="http://www.modersurvivalists.com/" target="_blank">visit the site &gt;</a>
 </div>
-
-
-
 
 <div class="work left">
   <img src="images/work_ifitweremyhome.jpg" width="250" height="150" alt="If It Were My Home" />
@@ -152,9 +120,6 @@
   <a class="visit" href="http://optiflowinc.com/" target="_blank">visit the site ></a>
 </div>
 
-
-
-
 <div class="work left">
   <img src="images/work_smallplanet.jpg" width="250" height="150" alt="Small Planet Institute" />
   <h3>Small Planet Institute <span>2010</span></h3>
@@ -177,9 +142,6 @@
   <p class="tools">Wordpress, Design</p>
 </div>
 
-
-
-
 <div class="work left">
   <img src="images/work_ukiah.jpg" width="250" height="150" alt="Ukiah Mendocino" />
   <h3>Ukiah Mendocino <span>2010</span></h3>
@@ -201,16 +163,12 @@
   <p class="tools">Lead Designer</p>
 </div>
 
-
-
-
 <div class="work left">
   <img src="images/work_dalton.jpg" width="250" height="150" alt="Dalton Carpet" />
   <h3>Dalton Carpet <span>2009</span></h3>
   <p class="info">Responsible for the design of Dalton Carpets ecommerce website. <b>This was an Active Media Architects project.</b></p>
   <p class="tools">Lead Designer</p>
 </div>
-
 
 <div class="work">
   <img src="images/work_drf.jpg" width="250" height="150" alt="Authentic Ireland" />
@@ -219,14 +177,13 @@
   <p class="tools">Lead Designer</p>
 </div>
 
+</main>
 
+<footer role="contentinfo">
+  <!-- your footer goes here -->
+</footer>
 
-
-</div>
-
-<div id="footer"></div>
-
-<!-- Begin GA code -->
+<!-- Begin GA code -/->
 <script src="http://www.google-analytics.com/urchin.js"></script>
 <script>
   _uacct = "UA-371626-1";
@@ -234,7 +191,7 @@
 </script>
 <!-- End GA code -->
 
-<!-- Woopra Code Start -->
+<!-- Woopra Code Start -/->
 <script src="//static.woopra.com/js/woopra.v2.js"></script>
 <script>
   woopraTracker.setDomain('annettecalabrese.com');
