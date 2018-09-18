@@ -53,10 +53,10 @@ h1.logo a {
 }
 h1.logo a {
   width: 230px;
-  height: 41px;
+  height: 80px;
   color: #efeeec;
   text-shadow: -1px -1px #732d0f;
-  padding: 89px 0 20px 20px;
+  padding: 40px 0 20px 20px;
   background: url('../images/bg_wood.jpg') 0 0 no-repeat;
   font: 24px/30px 'Yanone Kaffeesatz', helvetica, arial, serif;
   text-transform: uppercase;
@@ -64,7 +64,12 @@ h1.logo a {
   letter-spacing: 3px;
   box-shadow: inset 0 1px 2px #000;
 }
-h1.logo a span {
+h1.logo strong span {
+  font: 45px/40px 'Yanone Kaffeesatz', helvetica, arial, serif;
+  letter-spacing: 2px;
+}
+h1.logo em {
+  display: block;
   font: 11px/16px helvetica, arial, serif;
   letter-spacing: .5px;
   font-weight: 400;
